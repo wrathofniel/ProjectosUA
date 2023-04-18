@@ -2,8 +2,8 @@ package estga.ua.pt.labproj01;
 
 /**
  *
- * @author 47285 IVO DANIEL SOARES DA SILVA
- * @author 108519 VICENTE REIS SILVA
+ * @author IVO DANIEL SOARES DA SILVA
+ * @author VICENTE REIS SILVA
  */
 
 import java.io.*;
