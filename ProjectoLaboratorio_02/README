@@ -1,0 +1,15 @@
+Cadeira: Laboratórios de Programação
+
+Enunciado:
+O Jogo do Galo tem como objetivo conseguir três círculos ou três xis em linha, quer
+horizontal, vertical ou diagonal, e ao mesmo tempo, quando possível, impedir o adversário
+de ganhar na próxima jogada.
+Neste jogo dois jogadores devem jogam alternadamente, desenhando um símbolo de cada
+vez, num espaço que esteja vazio.
+Recorrendo ao Java Swing implemente o referido Jogo do Galo com uma interface gráfica
+com as seguintes características:
+- Deve ser possível inserir o nome dos jogadores;
+- Deve ser possível ver número de jogos realizados;
+- Deve ser possível ver número de jogos ganhos pelo jogador A e respetiva percentagem;
+- Deve ser possível ver número de jogos ganhos pelo jogador B e respetiva percentagem;
+- Deve ser possível ver número de jogos empatados e respetiva percentagem;

@@ -1,0 +1,28 @@
+Cadeira: Sistemas Operativos
+
+Enunciado:
+Pretende-se implementar o comando sdel que permita que se apaguem ficheiros com segurança.
+Ou seja, os ficheiros passados como argumento para o comando sdel não serão realmente apagados,
+numa primeira fase, mas sim comprimidos, se já não o estiverem, e movidos para uma diretoria lixo
+(~/.LIXO). O comando sdel tem a seguinte sintaxe:
+sdel [file ...] [-r dir] [-t num] [-s num] [-u] [-h]
+Exemplos de utilização:
+sdel fich1 fich2 fich2
+Resultado: Os ficheiros fich1 fich2 fich3 são comprimidos e movidos para a diretoria
+~/LIXO
+sdel -r dir1
+Resultado: O comando sdel é aplicado recursivamente na diretoria dir1
+sdel -t 48
+Resultado: Os ficheiros da diretoria ~/.LIXO com mais de 48 horas são apagados
+sdel -s 100
+Resultado: Os ficheiros da diretoria ~/.LIXO com mais de 100 KBytes são apagados
+sdel -u
+Resultado: Indica o tamanho do maior ficheiro guardado na diretoria ~/.LIXO
+sdel -h
+Resultado: É mostrado o manual de utilizador do comando sdel
+O comando sdel deve verificar se a sua sintaxe está correta e, a cada invocação, apenas aceita uma
+opção.
+O comando sdel cria e mantém um ficheiro log (~/.sdel.log) onde são guardados os dados
+das suas invocações. Os dados e o seu formato, a guardar neste ficheiro, ficam ao critério de cada
+estudante.
+Implemente este comando.

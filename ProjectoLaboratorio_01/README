@@ -1,0 +1,25 @@
+Cadeira: Laboratórios de Programação
+
+Enunciado:
+
+Os professores da Unidade Curricular de Laboratórios de Programação da Licenciatura em
+Tecnologias da Informação decidiram fazer o exame da UC em formato Teste Americano.
+O exame é composto por 20 perguntas de escolha múltipla e cada resposta pode tomar o
+valor 1, 2, 3, 4 ou 5, correspondente à opção selecionada, e, no caso de não ter sido
+respondida, o valor 0.
+As respostas da turma, que é constituída por 30 alunos, foram guardadas num ficheiro de
+objetos.
+Pretende-se criar um programa que tendo em conta o ficheiro de respostas e um ficheiro
+com a chave das respostas corretas (constituído por números inteiros), apresente as
+seguintes informações:
+- Classificação de cada aluno
+- Nota mais alta
+- Nota mais baixa
+- Média das notas
+- Número de positivas e respetiva percentagem
+- Número de negativas e respetiva percentagem
+As informações devem ser apresentadas no ecrã e simultaneamente guardadas num ficheiro
+de texto.
+Para o cálculo das notas tenha em atenção a seguinte regra:
+Uma resposta certa vale 1 ponto, uma resposta errada desconta 0.5 pontos e uma resposta
+em branco não tem qualquer influência no resultado final.
